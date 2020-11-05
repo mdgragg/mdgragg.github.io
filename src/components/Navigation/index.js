@@ -8,12 +8,12 @@ function Navigation() {
     <React.Fragment >
       <Navbar className="nav fixed-top"> 
       <Container>
-        <Navbar.Brand as={Link} to="/react-portfolio" className="navbar-brand text-white" href="home page">
+        <Navbar.Brand as={Link} to="/" className="navbar-brand text-white" href="home page">
           MICHAEL GRAGG
         </Navbar.Brand>
           <Nav className="navbar-nav justify-content-end">
 
-            <Nav.Link as={Link} to="/react-portfolio" className="nav-item text-white-50 about-link" href="home page">
+            <Nav.Link as={Link} to="/" className="nav-item text-white-50 about-link" href="home page">
               About
             </Nav.Link>
 
